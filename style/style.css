@@ -43,7 +43,7 @@ html {
 @media (max-width: 767px) {
   .wrapper {
     flex-direction: column;
-    flex-grow: 2;
+    flex-grow: 1;
     margin: 0px;
   }
 }
