@@ -3,6 +3,12 @@
   margin: 40px 20px;
 }
 
+@media (max-width: 767px) {
+  .contact {
+    margin: 0px 20px;
+  }
+}
+
 .contact__header {
   color: #ffffff;
 }

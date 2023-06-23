@@ -3,6 +3,12 @@
   margin: 40px 20px;
 }
 
+@media (max-width: 767px) {
+  .skills {
+    margin: 0px 20px;
+  }
+}
+
 .skills__header {
   color: #ffffff;
 }
