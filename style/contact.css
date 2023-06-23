@@ -1,0 +1,24 @@
+.contact {
+  max-width: 300px;
+  margin: 40px 20px;
+}
+
+.contact__header {
+  color: #ffffff;
+}
+
+.contact__icon {
+  width: 16px;
+  margin-right: 5px;
+}
+
+.contact__listItem {
+  color: #ffffff;
+  padding: 0px;
+  list-style: none;
+}
+
+.contact__listItem li {
+  font-size: 16px;
+  line-height: 175%;
+}

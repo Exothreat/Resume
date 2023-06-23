@@ -1,0 +1,21 @@
+.skills {
+  max-width: 300px;
+  margin: 40px 20px;
+}
+
+.skills__header {
+  color: #ffffff;
+}
+
+.skills__list {
+  color: #fb6d3a;
+  font-size: 15px;
+  line-height: 24px;
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-position: inside;
+}
+
+.skills__listItem {
+  color: #ffffff;
+}
