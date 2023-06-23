@@ -1,0 +1,30 @@
+.education {
+  margin-bottom: 20px;
+}
+
+.education__header {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.education__schoolName {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff632b;
+}
+
+.education__schoolClass {
+  font-weight: 700;
+}
+
+.education__schoolDate {
+  font-size: 13px;
+  color: #a8a8a8;
+}
+
+.education__schoolList {
+  line-height: 24px;
+  padding-left: 0;
+  list-style-position: inside;
+  color: #666;
+}

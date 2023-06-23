@@ -1,9 +1,16 @@
 .main {
+  max-width: 600px;
   padding: 50px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
   .main {
-    padding: 10px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+  .main {
+    padding: 60px;
   }
 }

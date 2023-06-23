@@ -1,0 +1,29 @@
+.jobs {
+  margin-bottom: 20px;
+}
+
+.jobs__header {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.job__name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.job__name--highlight {
+  color: #ff632b;
+}
+
+.job__date {
+  font-size: 13px;
+  color: #a8a8a8;
+}
+
+.job__list {
+  line-height: 24px;
+  padding-left: 0;
+  list-style-position: inside;
+  color: #666;
+}

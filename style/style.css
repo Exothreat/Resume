@@ -10,6 +10,7 @@ html {
 
 .body {
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   background: #e1eaf8;
 }
 
@@ -24,128 +25,9 @@ html {
   overflow-wrap: break-word;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .wrapper {
     flex-direction: column;
     margin: 0px;
   }
-}
-
-.main-description {
-  max-width: 500px;
-  margin-bottom: 40px;
-}
-
-.job-title {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 17px;
-}
-
-h1 {
-  font-size: 45px;
-  font-weight: 700;
-  line-height: 55px;
-}
-
-.description {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #595959;
-}
-
-.list-primary {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 24px;
-  padding-left: 0;
-  list-style-position: inside;
-}
-
-.list-primary-item {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #595959;
-  text-decoration: none;
-}
-
-.header-primary {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 27px;
-  margin-bottom: 12px;
-}
-
-.job-name {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  margin-bottom: 20px;
-}
-
-.highlight {
-  color: #fb6d3a;
-}
-
-.jobs {
-  max-width: 500px;
-}
-
-.job-date {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 15px;
-  color: #a8a8a8;
-}
-
-.job-list {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  padding-left: 0;
-  list-style-position: inside;
-  color: #595959;
-}
-
-.job-list-item {
-  font-weight: 400;
-}
-
-.school-name {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  color: #fb6d3a;
-}
-
-.education {
-  margin-top: 43px;
-}
-
-.school-date {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 15px;
-  color: #a8a8a8;
-}
-
-.school-class-name {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 17px;
-}
-
-.school-list {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  padding-left: 0;
-  list-style-position: inside;
-  color: #595959;
-}
-
-.school-list-item {
-  font-weight: 400;
 }
