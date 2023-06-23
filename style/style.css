@@ -16,17 +16,36 @@ html {
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
-  max-width: 1200px;
+  max-width: 1000px;
   justify-content: center;
   margin: 10px auto;
   background: #ffffff;
   box-shadow: 6px 6px 20px 0px #0000001a;
 }
 
-aside {
-  width: 350px;
+.aside {
+  max-width: 350px;
   margin-top: 25px;
   background: #1e2939;
+}
+
+@media (max-width: 767px) {
+  .aside {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    flex-direction: column;
+    flex-grow: 2;
+    margin: 0px;
+  }
 }
 
 .header-secondary {
@@ -76,12 +95,19 @@ aside {
   margin-left: 40px;
 }
 
-main {
-  padding: 102px 88px 102px 88px;
+.main {
+  padding: 50px;
+}
+
+@media (max-width: 767px) {
+  .main {
+    /* display: block;
+    float: right; */
+  }
 }
 
 .main-description {
-  width: 500px;
+  max-width: 500px;
   margin-bottom: 40px;
 }
 
@@ -102,11 +128,6 @@ h1 {
   font-weight: 400;
   line-height: 24px;
   color: #595959;
-}
-
-.projects {
-  width: 485px;
-  margin-bottom: 51px;
 }
 
 .list-primary {
@@ -144,7 +165,7 @@ h1 {
 }
 
 .jobs {
-  width: 500px;
+  max-width: 500px;
 }
 
 .job-date {
