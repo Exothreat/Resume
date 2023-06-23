@@ -17,6 +17,7 @@ html {
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
   max-width: 1000px;
   justify-content: center;
   margin: 10px auto;
@@ -30,4 +31,11 @@ html {
     flex-direction: column;
     margin: 0px;
   }
+}
+
+.rodo {
+  border-top: 1px dotted;
+  margin: 20px 20px;
+  padding: 30px 10px;
+  text-align: justify;
 }
