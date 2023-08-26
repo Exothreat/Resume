@@ -19,13 +19,23 @@
   margin-right: 5px;
 }
 
-.contact__listItem {
+.contact__list {
   color: #ffffff;
   padding: 0px;
   list-style: none;
 }
 
-.contact__listItem li {
+.contact__list-item {
   font-size: 16px;
   line-height: 175%;
+}
+
+.contact__list-item a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact__list-item a:hover {
+  color: #fb6d3a;
 }
