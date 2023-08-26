@@ -1,0 +1,26 @@
+.portfolio {
+  margin-bottom: 40px;
+}
+
+.portfolio__header {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.portfolio__title {
+  color: #ff632b;
+  margin: 10px;
+}
+
+.portfolio__list {
+  line-height: 24px;
+  padding-left: 0;
+  list-style-position: inside;
+  color: #666;
+}
+
+.portfolio__list a {
+  text-decoration: none;
+  color: #ff632b;
+  padding-left: 10px;
+}
