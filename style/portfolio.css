@@ -8,7 +8,7 @@
 }
 
 .portfolio__title {
-  color: #ff632b;
+  color: #f24100;
   margin: 10px;
 }
 
@@ -21,6 +21,14 @@
 
 .portfolio__list a {
   text-decoration: none;
-  color: #ff632b;
-  padding-left: 10px;
+  color: #f24100;
+  padding: 0 10px;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+
+.portfolio__list a:hover {
+  background-color: #f24100;
+  border-radius: 2rem;
+  color: #ffffff;
 }
